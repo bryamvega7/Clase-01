@@ -1,4 +1,4 @@
-#Realizar Calculadora
+#Realizar Calculadora Basica
 
 #Bryam Antony Vega Chafloque
 #Alvaro Jose Chancafe Araujo
@@ -26,9 +26,13 @@ def potencia(num1,num2):
   resultado = num1*num2
   return resultado
 
+print("\nBienvenido a la Calculadora Basica!")
+
+print("\nTener en cuenta los signos de cada operacion:\n1. Suma [+]\n2. Resta [-]\n3. Multiplicacion [*]\n4. Division [/]\n5. Potencia [**]")
+
 num1 = int(input("Ingrese el Primer numero: "))
 num2 = int(input("Ingrese el Segundo numero: "))
-op = input("Ingrese que operacion desea realizar: ")
+op = input("Ingrese el signo de la operacion desea realizar: ")
 
 if op == "+":
   print(suma(num1,num2))
