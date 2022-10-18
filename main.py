@@ -23,7 +23,7 @@ def division(num1,num2):
   return resultado
 
 def potencia(num1,num2):
-  resultado = num1*num2
+  resultado = num1**num2
   return resultado
 
 print("\nBienvenido a la Calculadora Basica!")
